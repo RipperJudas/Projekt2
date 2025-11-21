@@ -13,15 +13,99 @@
             <ul>
                 <li><a href="index.html">Forside<img class="ikon1" src="img/house-solid-full.svg" alt="Hjem/forside"></a></li>
                 <li><a href="råd.html">Råd<img class="ikon2" src="img/advice-icon.png" alt="Råd"> </a></li>
-                <li><a href="kontakt.html">Kontakt Os<img class="ikon3" src="img/address-book-solid-full.svg" alt="Kontakt Os"></a></li>
+                <li><a class="current3">Kontakt Os<img class="ikon3" src="img/address-book-solid-full.svg" alt="Kontakt Os"></a></li>
             </ul>
+
+        
+        
     </header>
 
 <main class="banner-kontakt">
 
+    <a href="index.html"> <img class="logo" src="img/mentallica-dk-logo-5.png" alt=""></a>
+
+  <section class="kontaktform">
+
+        
+    
+        <form>
+             <h1 class="header-kontakt">Kontakt os</h1>
+            <div class="boks4">
+        <label class="visually-hidden" for="navn">Navn</label>
+        <input id="navn"type="text" placeholder="Navn" required>
+        
+        <label class="visually-hidden" for="mail">E-mail</label>
+         <input id="mail" type="text" placeholder="E-mail" required>
+
+        <label class="visually-hidden" for="tlf">Telefon</label>
+         <input id="tlf" type="text" placeholder="Telefon" required>
+
+        <label class="visually-hidden" for="adresse">Adresse</label>
+         <input id="adresse" type="text" placeholder="Adresse" required>
+        </div>
+        
+        <fieldset class="checkbox">
+            <legend>Hvad ønsker du svar på?</legend>
+                <div>
+                    <input id="mental-sundhed-generelt" type="checkbox">
+                    <label for="mental-sundhed-generelt">Generelt om mental sundhed</label>
+                </div>
+
+                <div>
+                    <input id="stress" type="checkbox">
+                    <label for="stress">Stress</label>
+                </div>
+
+                <div>
+                    <input id="angst" type="checkbox">
+                    <label for="angst">Angst</label>
+                </div>
+        </fieldset>
+
+        <label class="besked-tekst" for="besked">Besked</label>
+        <textarea id="besked" cols="30" rows="10"></textarea>
+
+        <fieldset class="kontakt-tekst">
+            <legend>Må vi kontakte dig på telefon?</legend>
+
+            <input id="tel" type="radio" name="kontakt">
+            <label for="tel">Ja</label>
+
+            <input id="mail" type="radio" name="kontakt">
+            <label for="mail">Nej</label>
+
+        </fieldset>
+
+        <input class="send-besked-tekst" type="submit" name="submit" value="Send besked">
+
+    </form>
+
+    </section>
 
 </main>
 
+
+<footer>
+
+ <section class="left-footer">
+        <h4>Kontakt:</h4>
+            <div class="boks5">
+        <p class="footer-p1">Adresse:</p>
+        <p class="footer-p">Lærkevej 69</p>
+        <p class="footer-p">Tlf: 90 32 76 54</p>
+             </div>
+     </section>
+
+    <section class="right-footer">
+        <h4>Sociale medier:</h4>
+            <div class="boks6">
+                <a href="#">Facebook,</a></li>
+                <a href="#">Instagram,</a></li>
+                <a href="#">Tiktok</a></li>
+            </div>
+        </section>
+
+</footer>
 
 </body>
 
